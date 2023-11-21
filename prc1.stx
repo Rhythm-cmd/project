@@ -1,0 +1,34 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.15 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "H:/vlsi/test/prc1.vhd" in Library work.
+Entity <prc1> compiled.
+ERROR:HDLParsers:3312 - "H:/vlsi/test/prc1.vhd" Line 42. Undefined symbol 'MODEL'.
+ERROR:HDLParsers:1209 - "H:/vlsi/test/prc1.vhd" Line 42. MODEL: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "H:/vlsi/test/prc1.vhd" Line 55. parse error, unexpected MINUS, expecting AFFECT or EQ or LE
+WARNING:HDLParsers:901 - "H:/vlsi/test/prc1.vhd" Line 55. Label TEMP is ignored.
+ERROR:HDLParsers:1202 - "H:/vlsi/test/prc1.vhd" Line 64. Redeclaration of symbol TEMP.
+ERROR:HDLParsers:164 - "H:/vlsi/test/prc1.vhd" Line 64. parse error, unexpected CLOSEPAR, expecting PIPE or ROW
+ERROR:HDLParsers:1202 - "H:/vlsi/test/prc1.vhd" Line 73. Redeclaration of symbol TEMP.
+ERROR:HDLParsers:164 - "H:/vlsi/test/prc1.vhd" Line 73. parse error, unexpected CLOSEPAR, expecting PIPE or ROW
+ERROR:HDLParsers:1202 - "H:/vlsi/test/prc1.vhd" Line 82. Redeclaration of symbol TEMP.
+ERROR:HDLParsers:164 - "H:/vlsi/test/prc1.vhd" Line 82. parse error, unexpected CLOSEPAR, expecting PIPE or ROW
+ERROR:HDLParsers:1202 - "H:/vlsi/test/prc1.vhd" Line 91. Redeclaration of symbol TEMP.
+ERROR:HDLParsers:164 - "H:/vlsi/test/prc1.vhd" Line 91. parse error, unexpected CLOSEPAR, expecting PIPE or ROW
+ERROR:HDLParsers:164 - "H:/vlsi/test/prc1.vhd" Line 104. parse error, unexpected CASE, expecting PROCESS
+CPU : 0.04 / 0.19 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 136468 kilobytes
+
+Number of errors   :   12 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
